@@ -1,5 +1,184 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 100%;
+  max-width: 100%;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  height: auto; 
+  padding: 20px; 
+}
+
+.header__theme-menu {
+  margin-top: 75px;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.header__theme-menu-button{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  border: 1.5px solid transparent;
+  color: #FF0070;
+  text-transform: lowercase;
+  outline: none;
+  background: none;
+}
+
+.header__theme-menu-button:focus {
+  border-color: #FF0070;
+  border-width: 1.5px;
+}
+
+.header__theme-menu-button:active {
+  border-color: #FF0070;
+  border-width: 3px;
+}
+
+.header__theme-menu-button_active {
+  border-color: #FF0070;
+  border-width: 1.5px;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+.cover-image{
+  position: absolute;
+  z-index: -1;
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.light {
+  position: absolute; 
+  top: 10px;           
+  right: 30px;       
+  font-family: IBM Plex Mono;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 25px;
+  color: #DB00FF;
+}
+
+.light::after{
+  content: "";
+  display: inline-block;
+  box-shadow: 0px 0px 4px 2px #FF0070;
+  width: 6px;
+  height: 6px;
+  margin-left: 4px;
+  margin-bottom: 2px; 
+  border-radius: 50%;
+  background-color: #FF0070;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  margin-left: 10px;
+  top: 50%;
+  color: #DB00FF;
+  text-align: start;
+  font-family: "IBM Plex Mono";
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 116px;
+  line-height: 83%;
+  letter-spacing: 0%;
+  text-shadow: #FF0070 4px 4px;
+}
+
+.first {
+  display: block;
+}
+
+.title-text{
+  background-color: #FF0070;
+  padding-left: 2px;
+  margin-top: 55px;
+  margin-bottom: 55px;
+  bottom: 0;
+  left: 2%;
+  width: 95%;
+  font-family: IBM Plex Mono;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 18px;
+  line-height: 23.4px;
+}
+
+.title-text-span {
+  display: block;
+}
+
+
+/* main тут */
+.title-in-main{
+  margin: 40px 0 10px 10px;
+  color: #FF0070;
+  font-family: IBM Plex Mono;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 18px;
+  line-height: 23.4px;
+}
+
+.title-title-in-main{
+  background-color: #FF0070;
+  margin: 20px 10px 0 10px;
+  font-family: IBM Plex Mono;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 18px;
+  line-height: 23.4px;
+}
+
+.p-in-main{
+  color: #F1B2CE;
+  margin: 10px 10px;
+  font-family: IBM Plex Mono;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 23.4px;
+}
+
+.span-in-p{
+  text-shadow: 1px 1px #FF0070;
+}
+
+.new-title{
+  font-family: IBM Plex Mono;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 23.4px;
+  background-color: #FF0070;
+  margin: 10px 10px;
 }
