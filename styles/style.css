@@ -4,17 +4,18 @@
   width: 100%;
   max-width: 100%;
   background-color: black;
+  background-attachment: fixed;
 }
 
 .header {
   position: relative;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%; 
-  height: auto; 
-  padding: 20px; 
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
 }
 
 .header__theme-menu {
@@ -25,7 +26,7 @@
   margin-top: 75px;
 }
 
-.header__theme-menu-button{
+.header__theme-menu-button {
   border: 1.5px solid transparent;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -34,7 +35,6 @@
   font-family: "IBM Plex Mono";
   font-weight: 400;
   font-size: 18px;
-  font-style: Regular;
   line-height: 18px;
   text-align: center;
   text-transform: lowercase;
@@ -56,77 +56,63 @@
   border-color: #FF0070;
 }
 
-.header {
-  position: relative;
-  display: flex;
-  width: 100%;
-}
-
-.cover-image{
+.cover-image {
   position: absolute;
   z-index: -1;
   height: 100%;
+  width: 100%;
+  object-fit: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .light {
-  position: absolute; 
-  top: 10px;           
+  position: absolute;
+  top: 10px;
   right: 30px;
-  color: #DB00FF;       
-  font-family: IBM Plex Mono;
+  color: #DB00FF;
+  font-family: "IBM Plex Mono";
   font-weight: 400;
   font-size: 18px;
-  font-style: Regular;
   line-height: 25px;
 }
 
-.light::after{
+.light::after {
   content: "";
   display: inline-block;
   width: 6px;
   height: 6px;
   margin-bottom: 2px;
-  margin-left: 4px; 
+  margin-left: 4px;
   border-radius: 50%;
   box-shadow: 0px 0px 4px 2px #FF0070;
   background-color: #FF0070;
 }
 
 .title {
-  top: 50%;
-  left: 0;
   display: flex;
   flex-direction: column;
-  margin-left: 10px;
   color: #DB00FF;
   font-family: "IBM Plex Mono";
   font-weight: 700;
   font-size: 116px;
-  font-style: Bold;
   line-height: 83%;
-  letter-spacing: 0%;
-  text-align: start;
-  text-shadow: #FF0070 4px 4px;
+  text-shadow: 4px 4px #FF0070;
 }
 
 .first {
   display: block;
 }
 
-.title-text{
-  bottom: 0;
-  left: 2%;
+.title-text {
   width: 95%;
   margin-top: 55px;
   margin-bottom: 55px;
   padding-left: 2px;
-  font-family: IBM Plex Mono;
+  font-family: "IBM Plex Mono";
   font-weight: 700;
   font-size: 18px;
-  font-style: Bold;
   line-height: 23.4px;
   background-color: #FF0070;
 }
@@ -135,79 +121,73 @@
   display: block;
 }
 
-
-/* main тут */
-main{
+/* main */
+main {
   width: 100%;
+  overflow-x: hidden;
 }
 
-.title-in-main{
+.title-in-main {
   margin: 40px 0 10px 10px;
   color: #FF0070;
-  font-family: IBM Plex Mono;
+  font-family: "IBM Plex Mono";
   font-weight: 700;
   font-size: 18px;
-  font-style: Bold;
   line-height: 23.4px;
 }
 
-.title-title-in-main{
+.title-title-in-main {
   margin: 20px 10px 0 10px;
-  font-family: IBM Plex Mono;
+  font-family: "IBM Plex Mono";
   font-weight: 700;
   font-size: 18px;
-  font-style: Bold;
   line-height: 23.4px;
   background-color: #FF0070;
 }
 
-.p-in-main{
+.p-in-main {
   margin: 10px 10px;
   color: #F1B2CE;
-  font-family: IBM Plex Mono;
+  font-family: "IBM Plex Mono";
   font-weight: 400;
   font-size: 18px;
-  font-style: Regular;
   line-height: 23.4px;
 }
 
-.span-in-p{
+.span-in-p {
   text-shadow: 1px 1px #FF0070;
 }
 
-.new-title{
+.new-title {
   margin: 10px 10px;
-  font-family: IBM Plex Mono;
+  font-family: "IBM Plex Mono";
   font-weight: 400;
   font-size: 18px;
-  font-style: Regular;
   line-height: 23.4px;
   background-color: #FF0070;
 }
 
-.last-title{
+.last-title {
   margin-top: 50px;
 }
 
-.last-main-img{
+.last-main-img {
   width: 100%;
   margin: 10px 10px 0 10px;
 }
 
 /* footeer тут */
-footer{
+footer {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   width: 100%;
-  height: 667px;
+  height: 100vh; 
 }
-
-.title-footer{
+.title-footer {
   color: #DB00FF;
-  font-family: IBM Plex Mono;
+  font-family: "IBM Plex Mono";
   font-weight: 700;
-  font-style: Bold;
   font-size: 116px;
   line-height: 83%;
   text-align: center;
