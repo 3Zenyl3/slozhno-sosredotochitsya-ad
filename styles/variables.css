@@ -7,3 +7,11 @@
   --block-bg-color: #FF0070; 
   --text-dark: #000028; 
 }
+
+.cover-image{
+  display: none;
+}
+
+.theme-light .cover-image{
+  display: none;
+}
