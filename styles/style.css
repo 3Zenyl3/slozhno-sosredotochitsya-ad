@@ -3,7 +3,8 @@
 .page {
   width: 100%;
   max-width: 100%;
-  background-color: black;
+  background-color: rgb(1, 0, 40);
+  background-attachment: fixed
 }
 
 .header {
@@ -24,8 +25,8 @@
 
 .header__theme-menu-button {
   border: 1.5px solid transparent;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   outline: none;
   color: #FF0070;
   font-family: "IBM Plex Mono";
@@ -37,13 +38,13 @@
   background: none;
 }
 
+.header__theme-menu-list{
+    margin-top: 0;
+    padding: 0 10px 0 0;
+  }
+
 .header__theme-menu-button:focus {
   border-width: 1.5px;
-  border-color: #FF0070;
-}
-
-.header__theme-menu-button:active {
-  border-width: 3px;
   border-color: #FF0070;
 }
 
@@ -88,6 +89,7 @@
 
 .title {
   display: flex;
+  margin-top: 40px;
   flex-direction: column;
   color: #DB00FF;
   font-family: "IBM Plex Mono";
