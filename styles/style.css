@@ -162,11 +162,7 @@ main {
 .title-in-main2{
   width: 95%;
   margin-left: 10px;
-  margin-top: 50px;
-}
-
-.title-in-main3{
-  margin-top: 50px;
+  padding-top: 30px;
 }
 
 .new-title {
@@ -261,6 +257,7 @@ footer {
   .right-column {
     grid-column: 2; 
     margin: 0;
+    margin-top: 20px;
   }
 
   .p-to-right{
@@ -373,7 +370,7 @@ footer {
       grid-template-columns: 2fr 4fr;
       row-gap: 10px;
       column-gap: 20px;
-      margin-top: 40px;
+      margin-top: 80px;
     }
 
     .title-in-main {
@@ -401,13 +398,18 @@ footer {
     }
     .title-in-main2{
       width: 30%;
-      margin: 50px 20px 0 20px;
+      margin: 80px 20px 0 20px;
+    }
+
+    .last-title{
+      margin: 0 20px 0 20px;
     }
 
     .grid-to-1024{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       column-gap: 20px;
+      margin-top: 20px;
     }
 
     .col1{
