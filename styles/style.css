@@ -162,8 +162,13 @@ main {
 .title-in-main2{
   width: 95%;
   margin-left: 10px;
-  margin-top: 20px;
+  margin-top: 50px;
 }
+
+.title-in-main3{
+  margin-top: 50px;
+}
+
 .new-title {
   color: #000028;
   font-family: "IBM Plex Mono";
@@ -249,12 +254,13 @@ footer {
 
   .title-in-main {
     grid-column: 1;
-    margin-top: 20px;
+    margin-top: 1px;
   }
 
   .title-title-in-main,
   .right-column {
     grid-column: 2; 
+    margin: 0;
   }
 
   .p-to-right{
@@ -271,7 +277,7 @@ footer {
 
   .title-in-main2{
     width: 30%;
-    margin: 70px 20px 0 20px;
+    margin: 50px 20px 20px 20px;
   }
 
   .last-title{
@@ -375,10 +381,15 @@ footer {
       margin: 10px 0 20px 10px;
     }
 
+    .title-in-main3{
+      margin: 0;
+    }
+
     .title-title-in-main,
     .right-column {
       grid-column: 2;
       gap: 10px; 
+      margin: 0;
     }
 
     .p-to-right{
