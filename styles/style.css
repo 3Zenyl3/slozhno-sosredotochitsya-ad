@@ -94,7 +94,7 @@
   color: #DB00FF;
   font-family: "IBM Plex Mono";
   font-weight: 700;
-  font-size: 116px;
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 83%;
   text-shadow: 4px 4px #FF0070;
 }
@@ -170,7 +170,7 @@ main {
 }
 
 .last-title {
-  margin-top: 50px;
+  margin: 50px 10px 0 10px;
 }
 
 .last-main-img {
@@ -219,7 +219,7 @@ footer {
     margin-top: 1em;
     font-family: IBM Plex Mono;
     font-weight: 700;
-    font-size: 120px;
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     font-style: Bold;
     line-height: 83%;
   }
@@ -245,7 +245,7 @@ footer {
 
   .title-in-main {
     grid-column: 1;
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
   .title-title-in-main,
