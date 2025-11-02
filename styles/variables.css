@@ -1,9 +1,9 @@
-:root {
-  --background-color: #ffffff;
-  --accent-color: #ff8dcb;
-  --main-text-color: #353430;
-  --title-color: #ffc2e6;
-  --shadow-color: #ff8dcb;
-  --block-bg-color: #ff8dcb;
-  --text-dark: #000028;
+:root { 
+  --background-color: rgb(1, 0, 40); 
+  --accent-color: #FF0070; 
+  --main-text-color: #F1B2CE; 
+  --title-color: #DB00FF; 
+  --shadow-color: #FF0070; 
+  --block-bg-color: #FF0070; 
+  --text-dark: #000028; 
 }

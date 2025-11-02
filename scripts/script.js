@@ -1,5 +1,5 @@
 (function initTheme() {
-  const theme = localStorage.getItem('theme');
+  const theme = localStorage.getItem('theme') || 'auto';
   if (theme) {
     setTheme(theme);
   }
