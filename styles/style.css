@@ -132,7 +132,7 @@ main {
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .title-title-in-main {
@@ -253,8 +253,7 @@ footer {
 
   .title-title-in-main,
   .right-column {
-    grid-column: 2;
-    gap: 10px; 
+    grid-column: 2; 
   }
 
   .p-to-right{
@@ -266,7 +265,7 @@ footer {
   }
 
   .title-title-in-main{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   .title-in-main2{
