@@ -8,10 +8,10 @@
   --text-dark: #000028; 
 }
 
-.cover-image{
+.cover-image {
   display: none;
 }
 
-.theme-light .cover-image{
+.theme-light .cover-image {
   display: none;
 }
