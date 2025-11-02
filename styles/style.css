@@ -120,7 +120,7 @@
   display: block;
 }
 
-/* main поменял на 30 */
+/* main */
 main {
   width: 100%;
   overflow-x: hidden;
@@ -132,7 +132,7 @@ main {
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
-  margin-top: 30px; 
+  margin-top: 35px; 
 }
 
 .title-title-in-main {
@@ -162,6 +162,7 @@ main {
 .title-in-main2{
   width: 95%;
   margin-left: 10px;
+  margin-top: 20px;
 }
 .new-title {
   color: #000028;
@@ -243,12 +244,12 @@ footer {
     grid-template-columns: 1fr 2fr;
     row-gap: 10px;
     column-gap: 20px;
-    margin-top: 70px;
+    margin-top: 60px;
   }
 
   .title-in-main {
     grid-column: 1;
-    margin-top: 30px;
+    margin-top: 20px;
   }
 
   .title-title-in-main,
