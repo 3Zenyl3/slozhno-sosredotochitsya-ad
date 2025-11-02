@@ -3,7 +3,7 @@
 .page {
   width: 100%;
   max-width: 100%;
-  background-color: rgb(1, 0, 40);
+  background-color: #FFF1F7; /* светлый фон вместо тёмного */
   background-attachment: fixed;
 }
 
@@ -28,7 +28,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
   outline: none;
-  color: #ff0070;
+  color: #353430; /* тёмный текст */
   font-family: "IBM Plex Mono";
   font-weight: 400;
   font-size: 18px;
@@ -45,30 +45,23 @@
 
 .header__theme-menu-button:focus {
   border-width: 1.5px;
-  border-color: #ff0070;
+  border-color: #353430; /* акцент в тёмном цвете */
 }
 
 .header__theme-menu-button_active {
   border-width: 1.5px;
-  border-color: #ff0070;
+  border-color: #353430;
 }
 
 .cover-image {
-  position: absolute;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  display: none; /* в светлой теме фоновое изображение скрываем */
 }
 
 .light {
   position: absolute;
   top: 10px;
   right: 30px;
-  color: #db00ff;
+  color: #353430;
   font-family: "IBM Plex Mono";
   font-weight: 400;
   font-size: 18px;
@@ -83,20 +76,20 @@
   margin-bottom: 2px;
   margin-left: 4px;
   border-radius: 50%;
-  box-shadow: 0px 0px 4px 2px #ff0070;
-  background-color: #ff0070;
+  box-shadow: none;
+  background-color: #FF8DCB; /* светло-розовая точка */
 }
 
 .title {
   display: flex;
   margin-top: 40px;
   flex-direction: column;
-  color: #db00ff;
+  color: #FFC2E6; /* светло-розовый */
   font-family: "IBM Plex Mono";
   font-weight: 700;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 83%;
-  text-shadow: 4px 4px #ff0070;
+  text-shadow: 4px 4px 0 #FF8DCB; /* мягкая розовая тень */
 }
 
 .first {
@@ -108,12 +101,12 @@
   margin-top: 55px;
   margin-bottom: 55px;
   padding-left: 2px;
-  color: #000028;
+  color: #353430;
   font-family: "IBM Plex Mono";
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
-  background-color: #ff0070;
+  background-color: #FF8DCB; /* розовый фон вместо яркого неона */
 }
 
 .title-text-span {
@@ -127,7 +120,7 @@ main {
 }
 
 .title-in-main {
-  color: #ff0070;
+  color: #353430;
   font-family: "IBM Plex Mono";
   font-weight: 700;
   font-size: 18px;
@@ -136,19 +129,19 @@ main {
 }
 
 .title-title-in-main {
-  align-self: center;
-  color: #000028;
+  align-self: flex-start;
+  color: #353430;
   font-family: "IBM Plex Mono";
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
-  background-color: #ff0070;
+  background-color: #FF8DCB;
   margin-top: 20px;
 }
 
 .p-in-main {
   margin-top: 10px;
-  color: #f1b2ce;
+  color: #353430;
   font-family: "IBM Plex Mono";
   font-weight: 400;
   font-size: 18px;
@@ -156,7 +149,7 @@ main {
 }
 
 .span-in-p {
-  text-shadow: 1px 1px #ff0070;
+  text-shadow: 1px 1px #FF8DCB;
 }
 
 .title-in-main2 {
@@ -166,17 +159,18 @@ main {
 }
 
 .new-title {
-  color: #000028;
+  color: #353430;
   font-family: "IBM Plex Mono";
   font-weight: 400;
   font-size: 18px;
   line-height: 23.4px;
-  background-color: #ff0070;
+  background-color: #FF8DCB;
   margin-top: 20px;
 }
 
 .last-title {
   margin: 50px 10px 0 10px;
+  color: #353430;
 }
 
 .last-main-img {
@@ -198,13 +192,13 @@ footer {
 }
 
 .title-footer {
-  color: #db00ff;
+  color: #FFC2E6;
   font-family: "IBM Plex Mono";
   font-weight: 700;
   font-size: 116px;
   line-height: 83%;
   text-align: center;
-  text-shadow: 3px 3px #ff0070;
+  text-shadow: 2px 2px 0 #FF8DCB;
 }
 
 
