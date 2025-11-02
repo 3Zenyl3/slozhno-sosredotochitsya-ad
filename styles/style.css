@@ -132,6 +132,7 @@ main {
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
+  margin-top: 40px;
 }
 
 .title-title-in-main {
@@ -142,6 +143,7 @@ main {
   font-size: 18px;
   line-height: 23.4px;
   background-color: #FF0070;
+  margin-top: 20px;
 }
 
 .p-in-main {
@@ -164,6 +166,7 @@ main {
   font-size: 18px;
   line-height: 23.4px;
   background-color: #FF0070;
+  margin-top: 20px;
 }
 
 .last-title {
@@ -172,6 +175,7 @@ main {
 
 .last-main-img {
   width: 100%;
+  margin-top: 10px;
 }
 
 section{
