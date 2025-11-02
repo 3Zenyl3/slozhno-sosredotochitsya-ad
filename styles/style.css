@@ -245,7 +245,7 @@ footer {
 
   .title-in-main {
     grid-column: 1;
-    margin: 0;
+    margin-top: 10px;
   }
 
   .title-title-in-main,
