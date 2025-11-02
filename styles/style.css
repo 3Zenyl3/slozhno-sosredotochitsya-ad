@@ -245,7 +245,7 @@ footer {
     grid-template-columns: 1fr 2fr;
     row-gap: 10px;
     column-gap: 20px;
-    margin-top: 60px;
+    margin-top: 80px;
   }
 
   .title-in-main {
@@ -367,7 +367,7 @@ footer {
     /* main тут */
     .grid-to-768 {
       display: grid;
-      grid-template-columns: 2fr 5fr;
+      grid-template-columns: 3fr 6fr;
       row-gap: 10px;
       column-gap: 20px;
       margin-top: 60px;
@@ -407,7 +407,7 @@ footer {
     }
 
     .last-title{
-      margin: 0 20px 0 20px;
+      margin: 80px 20px 0 20px;
     }
 
     .grid-to-1024{
