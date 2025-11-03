@@ -11,5 +11,6 @@
   --title-color: #db00ff;
   --shadow-color: #ff0070;
   --block-bg-color: #ff0070;
-  --text-dark: #ff0070;
+  --text-dark: rgb(1, 0, 40);
+  --text-dark1: #ff0070;
 }
