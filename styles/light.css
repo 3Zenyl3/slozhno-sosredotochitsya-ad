@@ -22,8 +22,9 @@
     --main-text-color: #353430;
     --title-color: #ffc2e6;
     --shadow-color: #ff8dcb;
-    --block-bg-color: #ff8dcb;
+    --block-bg-color: #000028;
     --text-dark: #000028;
+    --text-dark1: #000028;
   }
 }
 
