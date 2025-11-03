@@ -89,7 +89,7 @@
 
 .title {
   display: flex;
-  margin-top: 40px;
+  margin-top: 80px;
   margin-left: 10px;
   flex-direction: column;
   color: var(--title-color);
@@ -138,7 +138,7 @@ main {
 
 .title-title-in-main {
   align-self: center;
-  color: var(--text-dark);
+  color: var(--text-dark1);
   font-family: "IBM Plex Mono";
   font-weight: 700;
   font-size: 18px;
