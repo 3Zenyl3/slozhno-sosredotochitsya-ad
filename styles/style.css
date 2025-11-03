@@ -302,9 +302,10 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 20px;
-    width: 100vw;
-    height: 76vh;
-    margin-right: 20px;
+    width: 100%; 
+    max-width: 100%; 
+    box-sizing: border-box;
+    height: 780px; 
   }
 
   .img-section img {
@@ -450,6 +451,7 @@ footer {
     width: 100%; 
     max-width: 100%; 
     box-sizing: border-box;
+    height: 1048px;
   }
 
   .img-section img {
