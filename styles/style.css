@@ -250,7 +250,7 @@ footer {
     grid-template-columns: 1fr 2fr;
     row-gap: 10px;
     column-gap: 20px;
-    margin-top: 75px;
+    margin-top: 65px;
   }
 
   .col3{
@@ -294,7 +294,7 @@ footer {
   }
 
   .grid-to-1024 {
-    margin-bottom: 15px;
+    margin-bottom: 35px;
   }
 
   .img-section {
@@ -396,8 +396,12 @@ footer {
     grid-template-columns: 3fr 6fr;
     row-gap: 10px;
     column-gap: 20px;
-    margin-top: 70px;
+    margin-top: 60px;
     margin-bottom: 15px;
+  }
+
+  .grid-to-1024 {
+    margin-bottom: 35px;
   }
 
   .title-in-main {
