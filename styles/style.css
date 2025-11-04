@@ -221,9 +221,9 @@ footer {
   }
 
   .header__theme-menu-list {
-    display: flex;       
-    flex-direction: column; 
-    gap: 15px;            
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     margin-top: 10vh;
     padding: 0 30px 0 0;
   }
@@ -300,10 +300,10 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap: 20px; 
+    gap: 20px;
     box-sizing: border-box;
     max-width: 100%;
-    height: 780px; 
+    height: 780px;
     margin-right: 20px;
   }
 
@@ -443,7 +443,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap: 20px; 
+    gap: 20px;
     box-sizing: border-box;
     max-width: 100%;
     height: 1048px;
