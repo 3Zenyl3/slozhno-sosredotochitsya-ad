@@ -213,7 +213,6 @@ footer {
   text-shadow: 3px 3px var(--shadow-color);
 }
 
-
 @media (min-width: 768px) and (max-width: 1023px) {
   .header {
     position: relative;
@@ -244,7 +243,7 @@ footer {
     width: 50%;
     margin: 9vh 0 0 0;
   }
-  
+
   .grid-to-768 {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -439,7 +438,6 @@ footer {
   .last-title {
     margin: 65px 20px 0 20px;
   }
-
 
   .img-section {
     display: grid;
